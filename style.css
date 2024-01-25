@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    background-color: aquamarine;
+    position: fixed;
+    /* overflow: hidden; */
+    width: 100%;
+    border-bottom: 2px solid #000;
+}
+.heade{
+    display: flex;
+    gap: 40%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    display: flex;
+    gap: 10%;
+    margin-top: 2%;
+}
+.home{
+    transition: color 0.3s, transform 0.3s ease-in-out;
+    color: black; 
+    text-decoration: none;
+}
+.home:hover{
+    transform: scale(1.1);
+    color: rgb(7, 7, 7);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+
+/* section1 */
+#home{
+    background-image: url(https://plus.unsplash.com/premium_photo-1676654935673-fdb42044b7ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60);
+    border-bottom: 2px solid aquamarine;
+    margin-bottom: 2%;
+}
+.part1{
+    text-align: center;
+    padding-top: 7%;
+}
+.auto-input{
+    color: aquamarine;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.img{
+    text-align: center;
+    align-items: center;
+    animation-name: slidin;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+/* section2 */
+#about{
+    text-align: center;
+    margin-bottom: 7%;
+    margin-top: 7%;
+}
+.about{
+    font-size: xx-large; font-weight: bolder; font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1%;
+    text-decoration: solid;
+}
+.abo{
+    font-size: large; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(136, 134, 134);
+}
+
+/* section3 */
+#portfolio{
+    padding: 2% 0 2% 0;
+    border-top: 2px solid aquamarine;
+    background-color: black;
+}
+.im{
+    display: flex;
+    gap: 3%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.imm{
+    width: 40%;
+    border: 2px solid aquamarine;
+    transition: color 0.3s, transform 0.3s ease-in;
+    overflow: hidden;
+}
+.imm:hover{
+    transform: scale(1.1);
+    opacity: 50%;
+}
+
+/* section4 */
+#education{
+   margin-bottom: 3%;
+   background-color: aquamarine;
+}
+.education{
+    padding: 10%;
+}
+.boxes{
+    margin-top: 1%;
+    display: flex;
+    gap: 3%;
+    padding-left: 8%;
+}
+ul{
+    font-size: large;
+}
+
+/* section5 */
+.conne{
+    display: flex;
+    gap: 20%;
+    padding: 10% 0 10% 20%;
+}
+
+@keyframes slidin {
+    0% {left: 0px; top: 0px;}
+    75% {left: 0px; top: 20px;}
+    100% {left: 0px; top: 0px;}
+}

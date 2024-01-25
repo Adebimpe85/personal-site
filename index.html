@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+  <div class="heade">
+    <span ><h1>ADIJAT!~</h1></span>
+    <span >
+      <div class="head">
+        <a class="home" href="#home">HOME</a>
+        <a class="home" href="#about">ABOUT</a>
+        <a class="home" href="#portfolio">PORTFOLIO</a>
+        <a class="home" href="#education">EDUCATION</a>
+        <a class="home" href="#connect">CONNECT</a>
+      </div>
+    </span>
+  </div>
+ </header>
+
+ <main>
+    <!-- home -->
+  <section id="home">
+    <div class="part1">
+        <img style="padding: 2px; background-color: black;" src="images/profile pic.jpg" alt="" width="25%">
+        <div>
+         <h1 style="padding-top: 1%; font-size: xx-large;">Hi! I am <strong class="auto-input"></strong></h1>
+        </div>
+    </div>
+    <div class="img">
+      <img src="images/pngwing.com.png" alt="" width="5%">
+    </div>
+  </section>
+  
+
+  <!-- about -->
+  <section id="about">
+    <div>
+        <h1 class="about">~/ ABOUT ME /~</h1>
+
+        <P class="abo">I am a <strong style="color: black; background-color: aquamarine;">frontend software engineer</strong> born and raised in Lagos, Nigeria. I majored in <strong style="color: black; background-color: aquamarine;">economics education</strong> and planned on pursuing lecturing
+        <br>but after life circumstances made me a full time caregiver, I grew to appreciate and enjoy programming enough to
+        <br>make the switch. Before the switch, I owe a lot of my development to being a tutor. It made me proud to see the
+        <br>positive change I could make on someone by just magnifying the ability they already had while also growing myself.
+        </P><br>
+    
+        <p class="abo">I chose to study at <b style="color: black; background-color: aquamarine;">ALX</b> after completing my first degree in economics to build a solid programming
+        <br>foundation and become a better, more well rounded software engineer. My motivation comes from seeing my progress
+        <br>in tangible ways which is one reason I enjoy programming so much. Seeing code speed, cleanliness, documentation,
+        <br>etc. demonstrably improve as I learn and gain experience motivates me to progress more and more. Along with that,
+        <br>I’ve learned from tutoring and my time at <b style="color: black; background-color: aquamarine;">ALX</b> how important and enjoyable exchanging knowledge is. Studying
+        <br><b style="color: black; background-color: aquamarine;">economics</b> for so long taught me to be humble and never hold on too tightly to my way of thinking. Thats why my
+        <br>favorite projects have been group and partner projects where my ideas grow and improve through collaboration and
+        <br>exposure to different perspectives.
+        </p>
+    
+        <p style="padding: 1% 0 0 0; color: black;" class="abo">*Outside of coding, I enjoy reading, teaching, and sleeping.*</p>
+    </div>
+  </section>
+  
+  <!-- portfolio -->
+  <section id="portfolio">
+    <h1 style="text-align: center; color: aquamarine;" class="about">~/ PORTFOLIO /~</h1>
+    <div class="im">
+      <img class="imm" src="images/Frontend Mentor _ Tip calculator app - Google Chrome 5_2_2023 11_57_50 PM (2).png" alt="">
+      <img style="height: 46vh;" class="imm" src="images/Vite + React - Google Chrome 5_3_2023 12_00_30 AM (2).png" alt="">
+    </div>
+    <div style="margin-top: 2%;" class="im">
+      <img class="imm" src="images/Untitled design.gif" alt="">
+      <video class="imm" src="videos/faa.mp4" controls></video>
+    </div>
+  </section>
+  
+  <!-- education -->
+  <section id="education">
+   <div class="education">
+    <h1 class="about" style="text-align: center;">~/ EDUCATION /~</h1>
+    <div class="boxes">
+     <div class="box">
+        <h1>Future Academy Africa(FAA)</h1>
+        <ul>
+         <li>completed Foundations curriculum</li>
+         <li>engaged in peer learning</li>
+         <li>completed daily coding challenges as part of project-based learning model</li>
+        </ul>
+     </div>
+
+     <div class="box">
+        <h1>ALX Africa</h1>
+        <ul>
+         <li>completed Foundations curriculum</li>
+         <li>engaged in peer learning</li>
+         <li>completed daily coding challenges as part of project-based learning model</li>
+        </ul>
+     </div>
+    </div>
+   </div>
+  </section>
+ </main>
+ 
+ <!-- connect -->
+ <footer id="connect">
+   <div class="conne">
+       <div>
+        <h1>LOCATION</h1><br>
+        <p style="font-size: large; font-weight: bolder; font-family: Arial, Helvetica, sans-serif;">Lagos, Nigeria</p>
+       </div>
+    
+       <div>
+        <h1>SOCIAL / CONTACT:</h1><br>
+        <div>
+            <a href="https://github.com/Adebimpe85"><img src="images/github.png" alt="" width="5%"></a>
+            <a href="https://www.linkedin.com/in/banjo-adijat-42001a188?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNO9zly2RT2CJ2rZvYNPdLA%3D%3D"><img src="images/linkedin.png" alt="" width="5%"></a>
+            <a href="https://twitter.com/adijatbimpe"><img src="images/twitter.png" alt="" width="5%"></a>
+            <a href="mailto:adijatbimpe@gmail.com"><img src="images/email.png" alt="" width="5%"></a>
+        </div>
+       </div>
+   </div>
+   <h3 style="padding-bottom: 2%; text-align: center; font-family: Arial, Helvetica, sans-serif;">copyright&copy; your website 2023</h3>
+ </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+   <script>
+    let typed = new Typed(".auto-input", {
+        strings: ["Adijat", "a Frontend web developer."],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    })
+   </script>
+</body>
+</html>
